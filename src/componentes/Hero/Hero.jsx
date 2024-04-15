@@ -11,7 +11,7 @@ const Hero = () => {
                 <img src={avatar} alt='avatar' className='rounded-circle w-25 py-3 py-md-0'/>
                 <div className='w-75'>
                     <h1 className="display-4 fw-bold">Full stack developer!</h1>
-                    <p className="lead mt-4">Turning ideas into digital experiences.</p>
+                    <p className="lead mt-4">Convirtiendo ideas en experiencias digitales.</p>
                 </div>
             </div>
         </div>
