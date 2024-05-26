@@ -16,12 +16,12 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
-          <Link className="navbar-brand" to="/" onClick={closeMenu}>Raul Rivera</Link>
+          {/* <Link className="navbar-brand" to="/" onClick={closeMenu}>Raul Rivera</Link> */}
           <button className="navbar-toggler" type="button" onClick={toggleMenu}>
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarSupportedContent">
+          <div className={`collapse navbar-collapse justify-content-center ${isOpen ? 'show' : ''}`} id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link className="nav-link" to="/" onClick={closeMenu}>Inicio</Link>
