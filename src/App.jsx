@@ -4,6 +4,7 @@ import ContactForm from './componentes/ContactForm'
 import Header from './componentes/Header'
 import Hero from './componentes/Hero/Hero'
 import Tecnologias from './componentes/Tecnologias'
+import Proyectos from './componentes/Proyectos'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Hero/>
       <AboutMe/>
       <Tecnologias/>
+      <Proyectos/>
       <ContactForm/>
     </>
   )
