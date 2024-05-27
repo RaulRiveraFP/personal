@@ -24,13 +24,16 @@ const Header = () => {
           <div className={`collapse navbar-collapse justify-content-center ${isOpen ? 'show' : ''}`} id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/" onClick={closeMenu}>Inicio</Link>
+                <a className="nav-link" href="/" onClick={closeMenu}>Inicio</a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/acerca" onClick={closeMenu}>Acerca de</Link>
+                <a className="nav-link" href="/#acerca" onClick={closeMenu}>Acerca de</a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contacto" onClick={closeMenu}>Contacto</Link>
+                <a className="nav-link" href="/#tecnologias" onClick={closeMenu}>Tecnologias</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/#contacto" onClick={closeMenu}>Contacto</a>
               </li>
             </ul>
           </div>

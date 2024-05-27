@@ -25,7 +25,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className='w-100  bg-light rounded shadow-sm'>
+    <div id="contacto" className='w-100  bg-light rounded shadow-sm'>
     <Container className="p-4 mt-5">
       <Row className="justify-content-md-center">
         <Col md={8}>

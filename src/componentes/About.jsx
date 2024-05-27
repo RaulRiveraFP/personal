@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import about from '../assets/about.png'
 const AboutMe = () => {
   return (
-    <Container className="my-5">
+    <Container id='acerca' className="my-5">
       <Row className="align-items-center">
         <Col md={6} >
           <h2 className="mb-4">¡Hola! Soy Raul ...</h2>

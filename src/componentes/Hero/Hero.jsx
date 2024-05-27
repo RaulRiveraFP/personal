@@ -4,7 +4,7 @@ import  hero  from '../../assets/hero.png'
 
 const Hero = () => {
   return (
-    <div className="hero border border-bottom">
+    <div  className="hero border border-bottom">
       <div className="jumbotron jumbotron-fluid">
         <div className="container text-center py-4">
             <div className='d-flex flex-column flex-md-row w-100 align-items-center '>

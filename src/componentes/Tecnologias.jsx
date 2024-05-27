@@ -7,7 +7,7 @@ import { faShopify, faBootstrap } from '@fortawesome/free-brands-svg-icons';
 const Technologies = () => {
 
   return (
-    <Container className="my-5">
+    <Container className="my-5" id='tecnologias'>
       <h2 className="mb-4 text-center">Mis Tecnologías</h2>
       <Row className="align-items-center mt-5">
         <Col md={3} sm={4} xs={6} className="mb-4 d-flex flex-column align-items-center">
